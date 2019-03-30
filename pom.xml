@@ -31,7 +31,7 @@
     <!-- project meta information -->
     <name>LightJason AgentSpeak(L++) - Storage Action</name>
     <description>AgentSpeak(L++) action for storage structure</description>
-    <url>https://github.com/LightJason/AgentSpeak</url>
+    <url>https://github.com/LightJason/Java-Action-Storage</url>
     
     <organization>
         <name>LightJason</name>
@@ -47,13 +47,13 @@
     
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/LightJason/Action-Storage/issues</url>
+        <url>https://github.com/LightJason/Java-Action-Storage/issues</url>
     </issueManagement>
     
     <scm>
-        <url>https://github.com/LightJason/Action-Storage</url>
-        <connection>scm:git:git://github.com:LightJason/Action-Storage.git</connection>
-        <developerConnection>scm:git:git@github.com:LightJason/Action-Storage.git</developerConnection>
+        <url>https://github.com/LightJason/Java-Action-Storage</url>
+        <connection>scm:git:git://github.com:LightJason/Java-Action-Storage.git</connection>
+        <developerConnection>scm:git:git@github.com:LightJason/Java-Action-Storage.git</developerConnection>
         <tag>v0.0.1</tag>
     </scm>
     
