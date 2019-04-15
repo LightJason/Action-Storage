@@ -120,7 +120,7 @@ public final class CRemove extends IBaseStorage
                .map( ITerm::<String>raw )
                .forEach( i -> this.remove( p_context.agent(), i, p_return ) );
 
-        return Stream.of();
+        return Stream.empty();
     }
 
 

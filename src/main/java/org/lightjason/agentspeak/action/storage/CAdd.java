@@ -120,7 +120,7 @@ public final class CAdd extends IBaseStorage
             2
         ).forEach( i -> this.add( p_context.agent(), i.get( 0 ).<String>raw(), i.get( 1 ) ) );
 
-        return Stream.of();
+        return Stream.empty();
     }
 
     /**

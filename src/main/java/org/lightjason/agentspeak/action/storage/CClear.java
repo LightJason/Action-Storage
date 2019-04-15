@@ -108,7 +108,7 @@ public final class CClear extends IBaseStorage
                  .filter( i -> !m_resolver.apply( i ) )
                  .forEach( i -> p_context.agent().storage().remove( i ) );
 
-        return Stream.of();
+        return Stream.empty();
     }
 
 }
