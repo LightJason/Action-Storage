@@ -77,7 +77,7 @@ public abstract class IBaseStorage extends IBaseAction
     protected IBaseStorage( @Nullable final String... p_forbidden )
     {
         this(
-            ( Objects.isNull( p_forbidden ) ) || ( p_forbidden.length == 0 )
+            Objects.isNull( p_forbidden ) || p_forbidden.length == 0
             ? Stream.empty()
             : Arrays.stream( p_forbidden )
         );
